@@ -15,6 +15,16 @@
 		112603B02478B5F000B1C006 /* AppleLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112603AF2478B5F000B1C006 /* AppleLoginTests.m */; };
 		112603BB2478B5F000B1C006 /* AppleLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112603BA2478B5F000B1C006 /* AppleLoginUITests.m */; };
 		112603C92478B78D00B1C006 /* 706_introducing_sign_in_with_apple.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 112603C82478B78D00B1C006 /* 706_introducing_sign_in_with_apple.pdf */; };
+		1138A54224A8340600022280 /* apple-app-site-association in Resources */ = {isa = PBXBuildFile; fileRef = 1138A54124A8340600022280 /* apple-app-site-association */; };
+		1138A58724A845E400022280 /* SignInWithAppleJS.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A58624A845E400022280 /* SignInWithAppleJS.m */; };
+		1138A58A24A8461A00022280 /* SignInWithAppleRESTAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A58924A8461A00022280 /* SignInWithAppleRESTAPI.m */; };
+		1138A58D24A8686700022280 /* AuthenticationServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A58C24A8686700022280 /* AuthenticationServices.m */; };
+		1138A59024A8823600022280 /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1138A58F24A8823600022280 /* AuthenticationServices.framework */; };
+		1138A5D424A895CC00022280 /* Password-BasedLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5D324A895CC00022280 /* Password-BasedLogin.m */; };
+		1138A5D724A895F400022280 /* Web-BasedLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5D624A895F400022280 /* Web-BasedLogin.m */; };
+		1138A5DA24A8960E00022280 /* EnterpriseSingleSign-On.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5D924A8960E00022280 /* EnterpriseSingleSign-On.m */; };
+		1138A5DD24A8964A00022280 /* AutoFillCredentialProviderSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5DC24A8964A00022280 /* AutoFillCredentialProviderSupport.m */; };
+		1138A5E024A8966F00022280 /* WebBrowserAuthenticationSessionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1138A5DF24A8966F00022280 /* WebBrowserAuthenticationSessionSupport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +62,24 @@
 		112603BC2478B5F000B1C006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		112603C82478B78D00B1C006 /* 706_introducing_sign_in_with_apple.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 706_introducing_sign_in_with_apple.pdf; sourceTree = "<group>"; };
 		112603CA2478B89300B1C006 /* AppleLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleLogin.entitlements; sourceTree = "<group>"; };
+		1138A54124A8340600022280 /* apple-app-site-association */ = {isa = PBXFileReference; lastKnownFileType = text; path = "apple-app-site-association"; sourceTree = "<group>"; };
+		1138A58524A845E400022280 /* SignInWithAppleJS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInWithAppleJS.h; sourceTree = "<group>"; };
+		1138A58624A845E400022280 /* SignInWithAppleJS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInWithAppleJS.m; sourceTree = "<group>"; };
+		1138A58824A8461A00022280 /* SignInWithAppleRESTAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInWithAppleRESTAPI.h; sourceTree = "<group>"; };
+		1138A58924A8461A00022280 /* SignInWithAppleRESTAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInWithAppleRESTAPI.m; sourceTree = "<group>"; };
+		1138A58B24A8686700022280 /* AuthenticationServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthenticationServices.h; sourceTree = "<group>"; };
+		1138A58C24A8686700022280 /* AuthenticationServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthenticationServices.m; sourceTree = "<group>"; };
+		1138A58F24A8823600022280 /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
+		1138A5D224A895CC00022280 /* Password-BasedLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Password-BasedLogin.h"; sourceTree = "<group>"; };
+		1138A5D324A895CC00022280 /* Password-BasedLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Password-BasedLogin.m"; sourceTree = "<group>"; };
+		1138A5D524A895F400022280 /* Web-BasedLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Web-BasedLogin.h"; sourceTree = "<group>"; };
+		1138A5D624A895F400022280 /* Web-BasedLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Web-BasedLogin.m"; sourceTree = "<group>"; };
+		1138A5D824A8960E00022280 /* EnterpriseSingleSign-On.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EnterpriseSingleSign-On.h"; sourceTree = "<group>"; };
+		1138A5D924A8960E00022280 /* EnterpriseSingleSign-On.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "EnterpriseSingleSign-On.m"; sourceTree = "<group>"; };
+		1138A5DB24A8964A00022280 /* AutoFillCredentialProviderSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoFillCredentialProviderSupport.h; sourceTree = "<group>"; };
+		1138A5DC24A8964A00022280 /* AutoFillCredentialProviderSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoFillCredentialProviderSupport.m; sourceTree = "<group>"; };
+		1138A5DE24A8966F00022280 /* WebBrowserAuthenticationSessionSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebBrowserAuthenticationSessionSupport.h; sourceTree = "<group>"; };
+		1138A5DF24A8966F00022280 /* WebBrowserAuthenticationSessionSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebBrowserAuthenticationSessionSupport.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1138A59024A8823600022280 /* AuthenticationServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +115,7 @@
 				112603AE2478B5F000B1C006 /* AppleLoginTests */,
 				112603B92478B5F000B1C006 /* AppleLoginUITests */,
 				112603912478B5EE00B1C006 /* Products */,
+				1138A58E24A8823600022280 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +137,23 @@
 				112603942478B5EE00B1C006 /* AppDelegate.m */,
 				112603992478B5EE00B1C006 /* ViewController.h */,
 				1126039A2478B5EF00B1C006 /* ViewController.m */,
+				1138A58524A845E400022280 /* SignInWithAppleJS.h */,
+				1138A58624A845E400022280 /* SignInWithAppleJS.m */,
+				1138A58824A8461A00022280 /* SignInWithAppleRESTAPI.h */,
+				1138A58924A8461A00022280 /* SignInWithAppleRESTAPI.m */,
+				1138A58B24A8686700022280 /* AuthenticationServices.h */,
+				1138A58C24A8686700022280 /* AuthenticationServices.m */,
+				1138A5D224A895CC00022280 /* Password-BasedLogin.h */,
+				1138A5D324A895CC00022280 /* Password-BasedLogin.m */,
+				1138A5D524A895F400022280 /* Web-BasedLogin.h */,
+				1138A5D624A895F400022280 /* Web-BasedLogin.m */,
+				1138A5D824A8960E00022280 /* EnterpriseSingleSign-On.h */,
+				1138A5D924A8960E00022280 /* EnterpriseSingleSign-On.m */,
+				1138A5DB24A8964A00022280 /* AutoFillCredentialProviderSupport.h */,
+				1138A5DC24A8964A00022280 /* AutoFillCredentialProviderSupport.m */,
+				1138A5DE24A8966F00022280 /* WebBrowserAuthenticationSessionSupport.h */,
+				1138A5DF24A8966F00022280 /* WebBrowserAuthenticationSessionSupport.m */,
+				1138A54124A8340600022280 /* apple-app-site-association */,
 				1126039F2478B5F000B1C006 /* Assets.xcassets */,
 				112603A12478B5F000B1C006 /* LaunchScreen.storyboard */,
 				112603A42478B5F000B1C006 /* Info.plist */,
@@ -132,6 +179,14 @@
 				112603BC2478B5F000B1C006 /* Info.plist */,
 			);
 			path = AppleLoginUITests;
+			sourceTree = "<group>";
+		};
+		1138A58E24A8823600022280 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1138A58F24A8823600022280 /* AuthenticationServices.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +294,7 @@
 			files = (
 				112603C92478B78D00B1C006 /* 706_introducing_sign_in_with_apple.pdf in Resources */,
 				112603A32478B5F000B1C006 /* LaunchScreen.storyboard in Resources */,
+				1138A54224A8340600022280 /* apple-app-site-association in Resources */,
 				112603A02478B5F000B1C006 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +320,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1138A58A24A8461A00022280 /* SignInWithAppleRESTAPI.m in Sources */,
+				1138A5D424A895CC00022280 /* Password-BasedLogin.m in Sources */,
+				1138A58D24A8686700022280 /* AuthenticationServices.m in Sources */,
+				1138A5DD24A8964A00022280 /* AutoFillCredentialProviderSupport.m in Sources */,
 				1126039B2478B5EF00B1C006 /* ViewController.m in Sources */,
+				1138A58724A845E400022280 /* SignInWithAppleJS.m in Sources */,
+				1138A5DA24A8960E00022280 /* EnterpriseSingleSign-On.m in Sources */,
 				112603952478B5EE00B1C006 /* AppDelegate.m in Sources */,
+				1138A5E024A8966F00022280 /* WebBrowserAuthenticationSessionSupport.m in Sources */,
+				1138A5D724A895F400022280 /* Web-BasedLogin.m in Sources */,
 				112603A62478B5F000B1C006 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
